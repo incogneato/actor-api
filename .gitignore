@@ -1,0 +1,8 @@
+.DS_Store
+/.bundle
+/log/*
+!/log/.keep
+/tmp
+lib/tasks/tmp/
+/config/application.yml
+/config/database.yml
