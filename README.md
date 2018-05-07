@@ -24,9 +24,9 @@ The data model is basic: an `Actor has_one MostKnownWork` and vice-versa.
     - seed this code in db/seeds.rb
 
 2. "ETL" process goes as follows:
-a. retrieving and saving html files (crawling)
-b. parsing the html into CSV files (scraping)
-c. ingesting clean CSV files into database
+- retrieving and saving html files (crawling)
+- parsing the html into CSV files (scraping)
+- ingesting clean CSV files into database
     - CSVs are included under lib/imdb/ folders if you're interested
 
 3. Interesting logic lives in lib/imdber.rb (where crawling / scraping concerns are again kept 'together' but otherwise organized by function), eg:
@@ -43,11 +43,6 @@ I'm temporarily using this as the effective foreign key, again, only to make lif
 
 **Some visuals:**
 
-Actors:
-![actors endpoint](https://screencast.com/t/4RX2Zf5Iwp)
-
-Birth date search:
-![dob search endpoint](https://screencast.com/t/od5fhtsL)
-
-Seeded local data:
-![database query](https://screencast.com/t/HU9so4DaQa)
+[Actors endpoint in action]:(https://screencast.com/t/4RX2Zf5Iwp)
+[Birth date search endpoint:](https://screencast.com/t/od5fhtsL)
+[Screenshot of local data:](https://screencast.com/t/HU9so4DaQa)
