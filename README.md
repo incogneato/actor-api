@@ -43,6 +43,6 @@ I'm temporarily using this as the effective foreign key, again, only to make lif
 
 **Some visuals:**
 
-[Actors endpoint in action]:(https://screencast.com/t/4RX2Zf5Iwp)
-[Birth date search endpoint:](https://screencast.com/t/od5fhtsL)
-[Screenshot of local data:](https://screencast.com/t/HU9so4DaQa)
+- [Actors endpoint in action:](https://screencast.com/t/4RX2Zf5Iwp)
+- [Birth date search endpoint:](https://screencast.com/t/od5fhtsL)
+- [Screenshot of local data:](https://screencast.com/t/HU9so4DaQa)
