@@ -27,7 +27,7 @@ The data model is basic: an `Actor has_one MostKnownWork` and vice-versa.
 - retrieving and saving html files (crawling)
 - parsing the html into CSV files (scraping)
 - ingesting clean CSV files into database
-    - CSVs are included under lib/imdb/ folders if you're interested
+    - CSVs will be written to respective lib/imdb/ folders
 
 3. Interesting logic lives in lib/imdber.rb (where crawling / scraping concerns are again kept 'together' but otherwise organized by function), eg:
 - `IMDber::Crawler#retrieve_actors_results_pages`
