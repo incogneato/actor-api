@@ -41,8 +41,15 @@ To simplify the task of seeding of the data, there is a duplicated column - both
 
 I'm temporarily using this as the effective foreign key, again, only to make life easier while seeding the initial data (1200+ rows per table in my example), because the alternative was a "%fuzzy search%" on the film name, which was far less reliable. This column should be removed after the data is seeded, before deploy.
 
-**Some visuals:**
+### Visuals:
 
-- [Actors endpoint in action:](https://screencast.com/t/4RX2Zf5Iwp)
-- [Birth date search endpoint:](https://screencast.com/t/od5fhtsL)
-- [Screenshot of local data:](https://screencast.com/t/HU9so4DaQa)
+- **Actors endpoint:**
+Paginated actors results sorted by their respective most-known works' ratings)
+[/api/v1/actors/](https://screencast.com/t/4RX2Zf5Iwp)
+
+- **Birth-date search endpoint**
+[/api/v1/actors/search/:birth_month/:birth_day](https://screencast.com/t/od5fhtsL)
+
+
+- **Screenshot of actual data (local)**
+[Respective SQL query:](https://screencast.com/t/HU9so4DaQa)
