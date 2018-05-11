@@ -45,7 +45,7 @@ I'm temporarily using this as the effective foreign key, again, only to make lif
 
 <dl>
   <dt>Actors endpoint:<dt>
-  <p>Paginated actors results sorted by their respective most-known works' ratings)</p>
+  <small style="font-weight:normal">Paginated actors results sorted by their respective most-known works' ratings</small>
   <dd><a href="https://screencast.com/t/4RX2Zf5Iwp" target="_blank">GET /api/v1/actors/</a><dd>
 
   <dt>Birth-date search endpoint:</dt>
