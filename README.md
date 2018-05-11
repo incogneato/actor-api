@@ -43,13 +43,14 @@ I'm temporarily using this as the effective foreign key, again, only to make lif
 
 ### Visuals:
 
-- **Actors endpoint:**
-Paginated actors results sorted by their respective most-known works' ratings)
-[/api/v1/actors/](https://screencast.com/t/4RX2Zf5Iwp)
+<dl>
+  <dt>Actors endpoint:<dt>
+  <dd>Paginated actors results sorted by their respective most-known works' ratings)</dd>
+  <dd><a href="https://screencast.com/t/4RX2Zf5Iwp" target="_blank">/api/v1/actors/</a><dd>
 
-- **Birth-date search endpoint**
-[/api/v1/actors/search/:birth_month/:birth_day](https://screencast.com/t/od5fhtsL)
+  <dt>Birth-date search endpoint</dt>
+  <dd><a href="https://screencast.com/t/od5fhtsL" target="_blank">/api/v1/actors/search/:birth_month/:birth_day</a><dd>
 
-
-- **Screenshot of actual data (local)**
-[Respective SQL query:](https://screencast.com/t/HU9so4DaQa)
+  <dt>Screenshot of actual data (local)</dt>
+  <dd><a href="https://screencast.com/t/HU9so4DaQa" target="_blank">Respective SQL "search" query</a><dd>
+</dl>
